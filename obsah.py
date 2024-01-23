@@ -5,7 +5,7 @@ a = str(input("Zadejte poloměr: "))
 #Kontrolujeme záporná čísla
 if a>0:
     print("Výsledek je: ")
-    print(3.14*a*a)
+    print(3.14*(a*a))
 #Pokud nebude platit první 
 else:
     print ("Chyba")
